@@ -1,0 +1,198 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.calculadora.InvFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:text="Matriz Inversa :"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:gravity="center">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a11"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a11"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a12"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a12"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a13"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a13"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a14"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a14"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a21"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a21"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a22t"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:textSize="35dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a23t"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:textSize="35dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a24"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a24"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a31"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a32t"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:textSize="35dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a33t"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:textSize="35dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a34"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a34"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/a41"
+                android:background="@drawable/border_style"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a41"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a42"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a42"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a43"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a43"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:background="@drawable/border_style"
+                android:id="@+id/a44"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="a44"
+                android:textSize="35dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

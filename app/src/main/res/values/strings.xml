@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="definition">A matrix is a bidimensional arrangement or two-dimensional table of numbers consisting of abstract quantities that can be added and multiplied together.
+It is a provision of numerical and / or variable values (represented by letters), in columns and rows, of rectangular shape.
+A matrix is a square or rectangular table of data (called elements or entries of the matrix) arranged in rows and columns, where a row is each of the horizontal lines of the matrix and a column is each of the vertical lines of the matrix. A matrix with m rows and n columns is called matrix m x n; and a and n are called matrix dimensions.</string>
+    <string name="What_is">What is a matrix?</string>
+
+    <string name="title_activity_matrices">Matrices</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Inverse Matrix</string>
+    <string name="tab_text_2">Transposed Matrix</string>
+    <string name="tab_text_3">Deputy Matrix</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

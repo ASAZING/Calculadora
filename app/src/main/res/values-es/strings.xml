@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="definition">Una matriz es un arreglo bidimensional o tabla bidimensional de números consistente en cantidades abstractas que pueden sumarse y multiplicarse entre sí.
+Es una disposición de valores numéricos y/o variables (representadas por letras), en columnas y filas, de forma rectangular.
+Una matriz es una tabla cuadrada o rectangular de datos (llamados elementos o entradas de la matriz) ordenados en filas y columnas, donde una fila es cada una de las líneas horizontales de la matriz y una columna es cada una de las líneas verticales de la matriz. A una matriz con m filas y n columnas se le denomina matriz m x n; y a m y n se les denomina dimensiones de la matriz</string>
+    <string name="What_is">¿Que es una matriz?</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="section_format">Hola mundo de seccion: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Matriz Inversa</string>
+    <string name="tab_text_2">Matriz Transpuesta</string>
+    <string name="tab_text_3">Matriz Adjunta</string>
+</resources>
